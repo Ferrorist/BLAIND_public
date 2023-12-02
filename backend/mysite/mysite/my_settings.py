@@ -2,7 +2,8 @@ DATABASES = {
     'default' : {
         'ENGINE' : 'django.db.backends.mysql',
         'NAME' : 'blaind_db',
-        'USER' : 'admin',
+        'USER' : '',
+        'PASSWORD' : '',
         'HOST' : 'blainddb.c5ehygqdito3.ap-northeast-2.rds.amazonaws.com',
         'PORT' : '3306',
         'OPTIONS': {

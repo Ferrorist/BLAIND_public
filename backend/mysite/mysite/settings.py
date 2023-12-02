@@ -172,11 +172,12 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = True # TLS 보안 설정     
 EMAIL_PORT = 587 # 서버 포트     
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'ferrorist3@gmail.com'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 # google API
-CLIENT_ID = "232763407592-07bufohmq82cj4prh19f0ap99lrgvldv.apps.googleusercontent.com"
+CLIENT_ID = ""
 SECRET_FILE = "../mysite/google.json"
 
 # AP Scheduler Setting
